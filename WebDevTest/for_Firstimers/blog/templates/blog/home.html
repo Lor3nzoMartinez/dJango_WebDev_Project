@@ -1,5 +1,6 @@
 {% extends 'blog/base.html' %}
 {% block content %}
+    <center><h1 style="alert"> Food for thought </h1></center>
     {% for post in posts %}
         <article class="media content-section">
           <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
